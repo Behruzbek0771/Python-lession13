@@ -1,13 +1,13 @@
 def main():
-    def savol_ber(savol: str, togri_javob: str):
-        print("Savol:", savol)
+    def ask_question(question: str, correct_answer: str):
+        print("question:", question)
         javob = input("Javobingiz: ")
-        if javobni_tekshir(javob, togri_javob):
+        if ask_question(javob, correct_answer):
             print("To'g'ri javob!")
         else:
-            print(f"Noto'g'ri. To'g'ri javob: {togri_javob}")
+            print(f"Noto'g'ri. To'g'ri javob: {correct_answer}")
 
-    def javobni_tekshir(foydalanuvchi_javobi, togri_javob):
-        return foydalanuvchi_javobi.strip().lower() == togri_javob.strip().lower()
-    savol_ber("O'zbekiston poytaxti qaysi shahar? ", "Toshkent")
+    def ask_question(user_answer, correct_answer):
+        return user_answer.strip().lower() == correct_answer.strip().lower()
+    ask_question("O'zbekiston poytaxti qaysi shahar? ", "Toshkent")
 main()
