@@ -1,4 +1,4 @@
-score = int(input( "Ball kriting: "))
+score = int(input ( "Ball kriting: "))
 
 def ged_grade(score):
     if score > 90:

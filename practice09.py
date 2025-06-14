@@ -1,4 +1,4 @@
-def deposit(balance, amount):
+def deposit (balance, amount):
     if amount > 0:
         balance += amount
         print(f"{amount} so'm muvaffaqiyatli qo'shildi.")

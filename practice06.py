@@ -1,4 +1,4 @@
-def is_valid_phone_number(phone: str):
+def is_valid_phone_number( phone: str):
     """Telefon raqam 9 ta raqamdan iboratligini tekshiradi"""
     return phone.isdigit() and len(phone) == 9
 def main():

@@ -8,5 +8,5 @@ def main():
         print(" Siz balog'atga yetgansiz ")
         print(calculate_age(birth_year, current_year))
     else:
-        print(" Siz balog'atga yetmagansiz")
+        print(" Siz balog'atga yetmagansiz ")
 main()

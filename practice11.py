@@ -9,7 +9,7 @@ def calculate_net_salary(salary, tax):
     net_salary = salary - tax
     return net_salary
 
-salary = int(input( "Summa kriting: "))
+salary = int(input( " Summa kriting: "))
 tax = calculate_tax(salary)
 print(tax)
 

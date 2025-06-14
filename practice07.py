@@ -1,7 +1,7 @@
 def main():
     def ask_question(question: str, correct_answer: str):
         print("question:", question)
-        javob = input("Javobingiz: ")
+        javob = input(" Javobingiz: ")
         if ask_question(javob, correct_answer):
             print("To'g'ri javob!")
         else:

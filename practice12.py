@@ -17,8 +17,8 @@ def bmi_status(bmi):
         return "Semiz"
     
 def main():
-    weight = float(input("Vazningizni kiriting (kg): "))
-    height = float(input("Bo'yingizni kiriting (metrlarda): "))
+    weight = float(input(" Vazningizni kiriting (kg): "))
+    height = float(input(" Bo'yingizni kiriting (metrlarda): "))
     
     bmi = calculate_bmi(weight, height)
     status = bmi_status(bmi)
